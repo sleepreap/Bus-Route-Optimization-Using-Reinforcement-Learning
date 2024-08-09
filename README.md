@@ -6,14 +6,18 @@ Reinforcement learning to find the best bus routes in Singapore for route planni
 - numpy
 - networkx
 - matplotlib
-- imageio (**optional**, useful for generating the video/gif file to visualize)
-- imageio-ffmpeg (**optional**, useful for generating the video/gif file to visualize)
+- folium (To see the bus stop nodes on the map)
+- imageio (for generating the video/gif file to visualize)
+- imageio-ffmpeg ( for generating the video/gif file to visualize)
 
 To install them, try:
 
-    pip3 install numpy networkx matplotlib imageio imageio-ffmpeg 
+`Pip install networkx matplotlib imageio imageio-ffmpeg folium`
 
-## Notes
+## API Usages
+1. API to get BUS ROUTES
+2. API to get BUS STOPS
+3. API to convert Postal Code to Latitude Longtitude values  
 
 
 ## Examples
