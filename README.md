@@ -62,7 +62,7 @@ Epochs: 100
 
 ![Jurong Point Bus Interchange Graph](/figs_and_gifs/jurongpoint_graph.png)
  
-![Jurong Point Bus Interchange Map](/figs_and_gifs/jurongpoint_map.png)
+![Jurong Point Bus Interchange Map](/figs_and_gifs/jurongpoint_map.PNG)
 
 ![Jurong Point Bus Interchange](/figs_and_gifs/jurongpoint_RL.gif)
 
@@ -80,7 +80,7 @@ Epochs: 100
 
 ![Clementi Bus Interchange Graph](/figs_and_gifs/clementi_graph.png)
 
-![Clementi Bus Interchange Map](/figs_and_gifs/clementi_map.png)
+![Clementi Bus Interchange Map](/figs_and_gifs/clementi_map.PNG)
 
 ![Clementi Bus Interchange](/figs_and_gifs/clementi_RL.gif)
 
