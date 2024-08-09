@@ -48,13 +48,17 @@ This script handles the API calls to retrieve data on the bus routes and bus sto
 This script generates a map of Singapore with all the bus stops for the selected bus services plotted as nodes. The map can be accessed by opening the HTML file that will be created.
 
 `RL.py`
-This script demonstrates reinforcement learning to find the best bus route between a starting point and a destination in Singapore. The script would require user inputs for the starting destination and ending destination. The script also requires the user to define the   bus services that will be used in the bus_service_numbers variable. An image of graph displaying the nodes and edges used for reinforcement learning will be displayed using Matplotlib which needs to be close. Then, Matplotlib will display reinforcement learning via q-learning. After closing the Matplotlib, a GIF of the q learning will be saved, and the output of the bus route to take will be produced.
+This script demonstrates reinforcement learning to find the best bus route between a starting point and a destination in Singapore. The script would require user inputs for the starting destination and ending destination. The script also requires the user to define the  bus services used in the bus_service_numbers variable. The script can also set parameters such as the number of epochs. An image of a graph displaying the nodes and edges used for reinforcement learning will be displayed using Matplotlib, which must be closed. Then, Matplotlib will display reinforcement learning via q-learning. After closing the Matplotlib, a GIF of the q learning will be saved, and the output of the bus route to take will be produced. 
 
 ## Examples
 
 1. Area of Focus: Jurong West area, with the destination set to Jurong Point Bus Interchange. Bus Services Considered: Limited to ["243G", "243W", "179"] due to computational constraints.
-   Starting destination postal code: 640835
-   Destination postal code: 648886
+   
+Starting destination postal code: 640835
+
+Destination postal code: 648886
+
+Epochs: 100
 
  ![Jurong Point Bus InterchangeGraph](/figs_and_gifs/jurongpoint_graph.png)
 
@@ -65,8 +69,12 @@ This script demonstrates reinforcement learning to find the best bus route betwe
 
    
 3. Area of Focus: Jurong West area, with the destination set to Clementi Bus Interchange. Bus Services Considered: Limited to ["99", "185"] due to computational constraints.
-   Starting destination postal code: 640835
-   Destination postal code: 120441
+   
+Starting destination postal code: 640835
+   
+Destination postal code: 120441
+
+Epochs: 100
 
 ![Clementi Bus Interchange Graph](/figs_and_gifs/clementi_graph.png)
 
